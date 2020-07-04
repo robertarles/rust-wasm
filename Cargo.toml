@@ -1,0 +1,16 @@
+[package]
+name = "rust-wasm"
+version = "0.1.0"
+authors = ["robert arles <robert@arles.us>"]
+edition = "2018"
+description = "a project to learn wasm using Rust"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/robertarles/rust-wasm"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.64"
